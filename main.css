@@ -20,7 +20,7 @@ body {
 .menu {
   display: flex;
   flex-direction: row;
-  width: 100%; 
+  width: 100%;
 }
 
 .link-div {
@@ -32,7 +32,10 @@ body {
   line-height: 20px;
   margin-top: 25px;
   margin-right: 100px;
+}
 
+span a {
+  color: #6070ff;
 }
 
 .link-div a {
@@ -45,15 +48,10 @@ span {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-
   height: 20px;
   width: 76px;
   margin-left: 100px;
   margin-top: 25px;
-}
-
-span a {
-  color: #6070ff;
 }
 
 .page1 {
@@ -69,7 +67,7 @@ span a {
   font-weight: 700;
   line-height: 110px;
   margin: 359px 260px 425px 260px;
-  color: #091e42; 
+  color: #091e42;
   letter-spacing: 0.37px;
   height: 122px;
   width: 920px;
