@@ -121,13 +121,16 @@ span {
 }
 
 .btns {
-  height: 24px;
-  width: 100px;
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   margin-top: 56px;
-  border: #396df2 solid 1px;
-  border-radius: 5px;
+  border: 1px solid #396df2;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.tags {
+  margin-top: 24px;
 }
