@@ -4,7 +4,6 @@ body {
   width: 1440px;
   background-color: #e5e5e5;
   font-family: 'Poppins', sans-serif;
-  /* padding-left: 100px;*/
 }
 
 .header {
@@ -88,7 +87,7 @@ span {
   color: #344563;
 }
 
-#P2 {
+.P2 {
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
@@ -256,7 +255,6 @@ span {
 
 .lastP_div {
   margin: 0 436px 0 359.66px;
-
 }
 
 .contact-info {
