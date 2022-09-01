@@ -10,7 +10,8 @@ It must use media quiries to adapt to different screen sizes.
 ## Description 
 - It should look almost like the Figma template I chose.
 - Linter should be set up correctly for this repository.
-- I must use CSS Grid and Flexbox.
+- Use of media queries for webpage to adapt to different screen sizes. 
+- Use of CSS Grid and Flexbox.
 - I used HTML sematic tags
 - Used HTML5 form tags
 - Form validates the data supplied by the user.
