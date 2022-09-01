@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +35,7 @@
             <p id="P2">LET'S CONNECT
             </p>
         </div>
-        <div id="soc_img">
+        <div class="soc_img1">
             <img src="assets/images/social_media_icons.svg" alt="socialmedia icons">
         </div>
     </section>
@@ -81,6 +84,49 @@
             <div id="card_img4" class="card right_align"><img src="assets/images/img4.svg" alt="project card"></div>
         </div>
     </article>
+
+    <section class="last_page">
+        <div class="left_block">
+            <h2 class="about">About <br> Myself</h2>
+            <p class="last_P">Hello I’m a software developer! I can help you build a product , feature or website Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+            <p id="P2">LET'S CONNECT
+            </p>
+            <div class="soc_img soc_img2">
+                <img src="assets/images/social_media_icons.svg" alt="socialmedia icons">
+            </div>
+            <input class="btns resume_btn" type="button" value="Get My Resume">
+        </div>
+        <div class="right_block">
+            <img id="skillz" src="assets/images/Skill-List.png" alt="List of skills">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="foot-image">
+            <h2 class="contactme">
+                Contact me
+            </h2>
+            <div class="lastP_div">
+                <p class="contact-info">
+                    If you have an application you are interested in developing,
+                    a feature that you need built or a project that needs coding.
+                    I’d love to help with it
+                </p>
+            </div>
+            <form action="https://formspree.io/f/form" method="post" id="form" class="contact-form">
+                <ul class="form-item">
+                    <li class="username"><input class="contact_input one_line" type="text" placeholder="username"
+                            name="username" maxlength="30" required></li>
+                    <li class="email"><input class="contact_input one_line" type="email" placeholder="Enter email"
+                            name="email" required></li>
+                    <li class="username"><textarea class="message contact_input" placeholder="Write your message here"
+                            maxlength="500" required></textarea></li>
+                    <li class="form-button btns"> <input class="get-intouch btn1" type="submit" value="Get It Touch"></li>
+                </ul>
+            </form>
+        </div>
+    </footer>
 </body>
 
 </html>
