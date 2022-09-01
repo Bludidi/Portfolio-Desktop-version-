@@ -7,8 +7,9 @@ body {
   padding-left: 100px;
 }
 
-.header {
+.menu {
   display: flex;
+  flex-direction: row;
   background-color: white;
   position: fixed;
   z-index: 9999;
@@ -18,10 +19,8 @@ body {
   margin-top: -8;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  width: 1440px;
+ul {
+  list-style-type: none;
 }
 
 .link-div {
