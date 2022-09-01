@@ -272,7 +272,7 @@ span {
 }
 
 .contact_input {
-  width: 290px;
+  width: 447px;
   background-color: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -292,6 +292,7 @@ span {
 .message {
   height: 154px;
   padding-top: 16px;
+  margin-bottom: 0;
 }
 
 .contact-form {
@@ -299,4 +300,8 @@ span {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
+}
+
+.get_intouch {
+  margin-top: 0;
 }
