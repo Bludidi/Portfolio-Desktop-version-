@@ -107,7 +107,7 @@ span {
 }
 
 .soc_img1 {
-  margin-left: 260px;
+  margin: 0;
 }
 
 .cards {
@@ -521,17 +521,6 @@ span {
     padding-top: 0;
     margin: 16px 0;
   }
-
-/*  .contact-info {
-    color: #ebebff;
-    font-family: 'poppins', sans-serif;
-    font-style: normal;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 28px;
-
-  }*/
 
   .contact-info {
     color: #ebebff;
