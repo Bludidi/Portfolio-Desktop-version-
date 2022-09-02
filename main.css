@@ -244,6 +244,7 @@ span {
   background-image: url("assets/images/contact_form_bg.svg");
   background-repeat: no-repeat;
   background-position-x: right;
+  background-size: contain;
 }
 
 .contactme {
@@ -481,7 +482,9 @@ span {
   }
 
   .foot-image {
-    display: none;
+    width: 375px;
+    height: 667px;
+    margin: 5px;
   }
 
   #skillz {
@@ -493,6 +496,35 @@ span {
 
   .right_block {
     margin: 0;
+  }
+
+  .lastP_div {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .contactme {
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    padding-top: 0;
+    margin: 16px 0;
+  }
+
+  .contact-info {
+    color: #ebebff;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    width: 350px;
+    height: 102px;
   }
   
 }
