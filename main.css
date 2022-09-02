@@ -313,7 +313,6 @@ span {
 /* small screen */
 
 @media screen and (max-width: 768px) {
-  
   html {
     display: flex;
     flex-direction: column;
@@ -412,7 +411,7 @@ span {
     width: 375px;
     height: 667px;
     border-top-right-radius: 50px;
-    padding-top: 142px;
+    padding-top: 15px;
     margin-bottom: 10px;
   }
 
@@ -448,23 +447,13 @@ span {
   .img-txt1 {
     margin: 0;
   }
-  
+
   .img-txt2 {
     margin: 0;
   }
 
   .p3 {
     margin-left: 10px;
-  }
-
-  .last_page {
-    display: flex;
-    background-color: #fff;
-    width: 375px;
-    height: 667px;
-    border-top-right-radius: 50px;
-    padding-top: 15px;
-    margin-bottom: 0;
   }
 
   .last_div {
@@ -533,7 +522,7 @@ span {
     width: 350px;
     height: 102px;
   }
-  
+
   .contact_input {
     width: 290px;
     background-color: #fff;
@@ -546,17 +535,17 @@ span {
     line-height: 20px;
     padding: 0 0 0 16px;
   }
-  
+
   .one_line {
     height: 48px;
     color: #172b4d;
   }
-  
+
   .message {
     height: 154px;
     padding-top: 16px;
   }
-  
+
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -585,5 +574,5 @@ span {
   .form-button {
     margin: 5px 0 0 0;
   }
-  
+
 }
