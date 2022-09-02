@@ -442,7 +442,7 @@ span {
 
   .btns {
     align-content: center;
-    margin: 15px 0 0 110px;
+    margin: 15px 0 0 100px;
   }
 
   .img-txt1 {
@@ -583,7 +583,7 @@ span {
   }
 
   .form-button {
-    margin: 5px 0 0 10px;
+    margin: 5px 0 0 0;
   }
   
 }
