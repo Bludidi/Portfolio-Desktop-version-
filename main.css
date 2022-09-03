@@ -318,8 +318,6 @@ span {
   margin-top: 0;
 }
 
-/* small screen */
-
 @media screen and (max-width: 768px) {
   html {
     display: flex;
@@ -487,7 +485,7 @@ span {
 
   #skillz {
     margin-top: 40px;
-    height: 200px;
+    height: 185px;
     width: 350px;
     z-index: 99;
   }
