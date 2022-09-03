@@ -53,7 +53,6 @@ span a {
   width: 76px;
   float: right;
   margin: 25px 0 0 280px;
-
 }
 
 span {
@@ -341,7 +340,7 @@ span {
   }
 
   .hamburger {
-    display:flex;
+    display: flex;
   }
 
   span {
