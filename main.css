@@ -157,6 +157,7 @@ span {
   border: 1px solid #396df2;
   padding: 12px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .resume_btn {
