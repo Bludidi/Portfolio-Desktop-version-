@@ -39,6 +39,10 @@ ul {
   margin-right: 100px;
 }
 
+.rotate {
+  transform: rotate(45deg);
+}
+
 span a {
   color: #6070ff;
 }
