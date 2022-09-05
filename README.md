@@ -22,12 +22,13 @@ It must use media quiries to adapt to different screen sizes.
 ### (Update)Created  a new branch to:
 
 - Update the README file.
-- Add online version link to Live Demo Section.
+- Added link to the published webpage.
 - Make sure that there are no linter errors.
 - Make sure to use the correct GitHub Flow.
 - Make sure that I documented my work in a professional way.
 
-
+# Link 
+https://bludidi.github.io/Portfolio-Desktop-version-/ 
 
 ## Prerequisites
 - Text editor 
