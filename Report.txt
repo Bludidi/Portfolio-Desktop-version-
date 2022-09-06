@@ -1,5 +1,5 @@
 # Accessisbility Report
-- Title is available 
+- Title is available: We have changed the name of the title to more specific for screen readers as well.  
 - Image text alternatives 
 - Text headings 
 - Color contrast 
