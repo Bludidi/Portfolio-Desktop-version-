@@ -1,0 +1,10 @@
+# Accessisbility Report
+- Title is available 
+- Image text alternatives 
+- Text headings 
+- Color contrast 
+- Resize 
+- Interaction (labels) 
+- Moving content 
+- Media 
+-Basic structure of the page
