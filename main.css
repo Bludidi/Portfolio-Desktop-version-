@@ -655,6 +655,7 @@ span {
     height: fit-content;
     width: 375px;
     overflow-x: hidden;
+    margin: auto;
   }
 
   body {

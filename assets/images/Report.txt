@@ -1,0 +1,25 @@
+# Accessisbility Report
+
+- Title is available: We have changed the name of the title to more specific for screen readers as well.
+https://github.com/Bludidi/Portfolio-Desktop-version-/blob/1985e131b63580208de57bad55295762325529d4/index.html#L8   
+
+- Image text alternatives: We have changed alternative text of images to be more especific as they were highlighted to be similar in the page.
+https://github.com/Bludidi/Portfolio-Desktop-version-/blob/1985e131b63580208de57bad55295762325529d4/index.html#L39 
+https://github.com/Bludidi/Portfolio-Desktop-version-/blob/1985e131b63580208de57bad55295762325529d4/index.html#L110
+
+- Text headings: The webpage have one level 1 heading and two level two headings, and there are no issues with the text heading. 
+
+- Color contrast: We have picked 10 color contrast errors in the webpage, but we did not fix them as they are in the Figma Design Tempalte. 
+ (We are required to keep the webpage similar to the Figma Template Design.)
+
+- Resize: The webpage has no issues of resizing. 
+
+- Interaction (labels): Added labels in the form which is hidden
+
+https://github.com/Bludidi/Portfolio-Desktop-version-/blob/3b70d58a498b52de191c0d9a79fad52ffae8f490/index.html#L138-L148
+
+- Moving content: Webpage does not have any moving content. 
+
+- Media: The webpage have only images media type, and it have no issues with images execpt for the alternative text attributes as indicated in the image text alternative above. 
+
+-Basic structure of the page
