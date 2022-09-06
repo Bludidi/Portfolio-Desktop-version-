@@ -14,7 +14,9 @@ https://github.com/Bludidi/Portfolio-Desktop-version-/blob/1985e131b63580208de57
 
 - Resize: The webpage has no issues of resizing. 
 
-- Interaction (labels): 
+- Interaction (labels): Added labels in the form which is hidden
+
+https://github.com/Bludidi/Portfolio-Desktop-version-/blob/3b70d58a498b52de191c0d9a79fad52ffae8f490/index.html#L138-L148
 
 - Moving content: Webpage does not have any moving content. 
 
