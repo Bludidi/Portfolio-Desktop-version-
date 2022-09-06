@@ -26,6 +26,7 @@ It must use media quiries to adapt to different screen sizes.
 - Make sure that there are no linter errors.
 - Make sure to use the correct GitHub Flow.
 - Make sure that I documented my work in a professional way.
+- Checking for the webpage accessibility.
 
 # Link 
 https://bludidi.github.io/Portfolio-Desktop-version-/ 
