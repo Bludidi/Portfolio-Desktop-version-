@@ -18,6 +18,6 @@ https://github.com/Bludidi/Portfolio-Desktop-version-/blob/1985e131b63580208de57
 
 - Moving content: Webpage does not have any moving content. 
 
-- Media:
+- Media: The webpage have only images media type, and it have no issues with images execpt for the alternative text attributes as indicated in the image text alternative above. 
 
 -Basic structure of the page
