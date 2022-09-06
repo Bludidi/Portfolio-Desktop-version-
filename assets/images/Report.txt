@@ -22,4 +22,4 @@ https://github.com/Bludidi/Portfolio-Desktop-version-/blob/3b70d58a498b52de191c0
 
 - Media: The webpage have only images media type, and it have no issues with images execpt for the alternative text attributes as indicated in the image text alternative above. 
 
--Basic structure of the page: The are no issues with the structure of the webpage. 
+-Basic structure of the page
