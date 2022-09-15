@@ -74,7 +74,7 @@ const projectCards = projects.map((project) => `
             </div>
         </div>
 `
-)
+);
 
 const modalContainer = document.querySelector('.modal');
 const recentWork = document.querySelector('.myWork');
@@ -87,7 +87,7 @@ projectCards.forEach((projectCard, index) => {
     <div class="project-popup">
       <div class="project-header">
         <input type="button" value="&#10006" class="fa-solid fa-xmark project-close close">
-        <img src="${projects[index].name}">
+        <h2>${projects[index].name}</h2>
       <div class="card_img card1">
         <img class="imagedesktop project-img"  src="${projects[index].image}" alt="card image">            
       <div class="project-footer">
