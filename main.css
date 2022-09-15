@@ -62,12 +62,12 @@ span a {
 
 span {
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
+  font-style: normal;
+  color: #7a869a;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 20px;
-  height: 20px;
-  width: 76px;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 25px;
 }
 
@@ -383,12 +383,12 @@ span {
 
   span {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+    font-style: normal;
+    color: #7a869a;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 20px;
-    height: 20px;
-    width: 76px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 25px;
   }
 

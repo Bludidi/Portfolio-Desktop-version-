@@ -98,6 +98,9 @@ projectCards.forEach((projectCard, index) => {
           <ul class = ("tech_lang")>
             ${projects[index].technologies.map((tech) => `<li>${tech}</li>`).join('')}
           </ul>
+          <ul class = ("tech_lang")>
+          ${projects[index].languages.map((tech) => `<li>${tech}</li>`).join('')}
+        </ul>
           <div class="project-links">
             <a href="${projects[index].seeLive}">See Live <i class="close"></i></a>
             <a href="${projects[index].seeSource}">See Source <i class="close"></i></a>
