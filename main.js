@@ -59,16 +59,16 @@ const projects = [
 const projectCards = projects.map((project) => `
 <div id="card1" class="cards">
             <div id="card_img" class="card left_align"><img class="card_img" src="${project.image}" alt="project card"></div>
-            <div id="txt_img" class="img-txt1"><h2>${project.name}</h2>
-            <ul class="flex-cards">
-            <li class="all-list first">${project.subtitle}</li>
-            <li class="all-list second">${project.backEnd}</li>
-            <li class="all-list second">${project.year}</li>
-          </ul>
+              <div id="txt_img" class="img-txt1"><h2>${project.name}</h2>
+                <ul class="flex-cards">
+                  <li class="all-list first">${project.subtitle}</li>
+                  <li class="all-list second">${project.backEnd}</li>
+                  <li class="all-list second">${project.year}</li>
+                </ul>
                 <p class="p3">${project.shortDescription}</p>
-                <ul class="flex-button">
+                <ul class="flex-button tech_lang">
                 ${project.languages.map((tech) => `<li class="button">${tech}</li>`).join('')}
-              </ul>
+                </ul>
                 <br>
                 <input class="btns see_btn" type="button" value="See Project">
             </div>
@@ -90,17 +90,17 @@ projectCards.forEach((projectCard, index) => {
         <h2>${projects[index].name}</h2>
         <p class="all-list first">${projects[index].subtitle} <span class="all-list second">${projects[index].backEnd}</span> <span class="all-list second">${projects[index].year}</span></p>
 
-      <div class="card_img card1">
-        <img class="imagedesktop project-img"  src="${projects[index].image}" alt="card image">            
-      <div class="project-footer">
-        <p class="project-desc">${projects[index].description}</p>
+        <div class="card_img card1">
+          <img class="imagedesktop project-img"  src="${projects[index].image}" alt="card image">            
+          <div class="project-footer">
+          <p class="project-desc">${projects[index].description}</p>
         <div>
           <ul class = ("tech_lang")>
             ${projects[index].technologies.map((tech) => `<li>${tech}</li>`).join('')}
           </ul>
           <ul class = ("tech_lang")>
-          ${projects[index].languages.map((tech) => `<li>${tech}</li>`).join('')}
-        </ul>
+            ${projects[index].languages.map((tech) => `<li>${tech}</li>`).join('')}
+          </ul>
           <div class="project-links">
             <a href="${projects[index].seeLive}">See Live <i class="close"></i></a>
             <a href="${projects[index].seeSource}">See Source <i class="close"></i></a>
