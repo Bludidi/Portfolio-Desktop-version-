@@ -166,8 +166,11 @@ body {
   color: #868990;
   float: right;
   cursor: pointer;
-  padding: 10px 10px 0 0;
+  border: none;
+  background-color: #fff;
+  /* padding: 10px 10px 0 0; */
   transition: 0.4s;
+  margin-bottom: 15px;
 }
 
 .project-close:hover {
