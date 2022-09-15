@@ -88,6 +88,8 @@ projectCards.forEach((projectCard, index) => {
       <div class="project-header">
         <input type="button" value="&#10006" class="fa-solid fa-xmark project-close close">
         <h2>${projects[index].name}</h2>
+        <p class="all-list first">${projects[index].subtitle} <span class="all-list second">${projects[index].backEnd}</span> <span class="all-list second">${projects[index].year}</span></p>
+
       <div class="card_img card1">
         <img class="imagedesktop project-img"  src="${projects[index].image}" alt="card image">            
       <div class="project-footer">
