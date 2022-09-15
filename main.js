@@ -1,40 +1,56 @@
 const projects = [
     {
-        name: 'Tonic',
+      name: 'Tonic',
+      subtitle: 'CANOPY',
+      backEnd: 'Back End Dev',
+      year: 2015,
         shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
         image: './assets/images/img_card1.svg',
-        technologies: ['./assets/images/Tags.svg', 'assets/images/Tags1.svg'],
+        languages: ["HTML", "CSS", "JavaScript" ],
+        technologies: ["HTML", "CSS", "JavaScript", "GitHub"],
         seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/", 
         seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-" 
     },
 
     {
-        name: "assets/images/img_text2.svg",
+      name: 'Multi Post Stories',
+      subtitle: 'CANOPY',
+      backEnd: 'Back End Dev',
+      year: 2015,
         shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
         image: "assets/images/img2.svg",
-        technologies: ["assets/images/Tags.svg", "assets/images/Tags1.svg"],
+        languages: ["HTML", "CSS", "JavaScript" ],
+        technologies: ["HTML", "CSS", "JavaScript", "GitHub"],
         seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/", 
         seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-" 
     },
 
     {
-        name: "assets/images/img_text3.svg",
+      name: 'Tonic',
+      subtitle: 'CANOPY',
+      backEnd: 'Back End Dev',
+      year: 2015,
         shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
         image: "assets/images/img3.svg",
-        technologies: ["assets/images/Tags.svg", "assets/images/Tags1.svg"],
+        languages: ["HTML", "CSS", "JavaScript" ],
+        technologies: ["HTML", "CSS", "JavaScript", "GitHub"],        
         seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/", 
         seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-" 
     },
 
     {
-        name: "assets/images/img_text4.svg",
+      name: 'Multi Post Stories',
+      subtitle: 'CANOPY',
+      backEnd: 'Back End Dev',
+      year: 2015,
         shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
         image: "assets/images/img4.svg",
-        technologies: ["assets/images/Tags.svg", "assets/images/Tags1.svg"],
+        languages: ["HTML", "CSS", "JavaScript" ],
+        technologies: ["HTML", "CSS", "JavaScript", "GitHub"],        
         seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/", 
         seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-" 
     },
@@ -43,7 +59,7 @@ const projects = [
 const projectCards = projects.map((project) => `
 <div id="card1" class="cards">
             <div id="card_img" class="card left_align"><img class="card_img" src="${project.image}" alt="project card"></div>
-            <div id="txt_img" class="img-txt1"><img class="img_txt" src="${project.name}" alt="projects name">
+            <div id="txt_img" class="img-txt1"><h2>${project.name}</h2>
                 <p class="p3">${project.shortDescription}</p>
                 <img class="tags" src="${project.technologies}" alt="language Tags">
                 <br>
