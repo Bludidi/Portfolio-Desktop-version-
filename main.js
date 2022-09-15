@@ -42,8 +42,8 @@ const projects = [
 
 const projectCards = projects.map((project) => `
 <div id="card1" class="cards">
-            <div id="card_img" class="card left_align"><img class="card_img" src="${projects.image}" alt="project card"></div>
-            <div id="txt_img" class="img-txt1"><img class="img_txt" src="${projects.name}" alt="projects name">
+            <div id="card_img" class="card left_align"><img class="card_img" src="${project.image}" alt="project card"></div>
+            <div id="txt_img" class="img-txt1"><img class="img_txt" src="${project.name}" alt="projects name">
                 <p class="p3">${project.shortDescription}</p>
                 <img class="tags" src="${project.technologies}" alt="language Tags">
                 <br>
@@ -64,7 +64,7 @@ projectCards.forEach((projectCard, index) => {
     <div class="project-popup">
       <div class="project-header">
         <i class="fa-solid fa-xmark project-close close">x</i>
-        <h2>${projects[index].name}</h2>
+        <img src="${projects[index].name}">
       <div class="card_img card1">
         <img class="imagedesktop project-img"  src="${projects[index].image}" alt="card image">            
       <div class="project-footer">
