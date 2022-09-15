@@ -60,8 +60,13 @@ const projectCards = projects.map((project) => `
 <div id="card1" class="cards">
             <div id="card_img" class="card left_align"><img class="card_img" src="${project.image}" alt="project card"></div>
             <div id="txt_img" class="img-txt1"><h2>${project.name}</h2>
+            <ul class="flex-cards">
+            <li class="all-list first">${project.subtitle}</li>
+            <li class="all-list second">${project.backEnd}</li>
+            <li class="all-list second">${project.year}</li>
+          </ul>
                 <p class="p3">${project.shortDescription}</p>
-                <img class="tags" src="${project.technologies}" alt="language Tags">
+
                 <br>
                 <input class="btns see_btn" type="button" value="See Project">
             </div>
