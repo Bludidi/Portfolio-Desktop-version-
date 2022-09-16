@@ -4,6 +4,7 @@ const projects = [
     subtitle: 'CANOPY',
     backEnd: 'Back End Dev',
     year: 2015,
+    bullet: '•',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: './assets/images/img_card1.svg',
@@ -18,6 +19,7 @@ const projects = [
     subtitle: 'FACEBOOK',
     backEnd: 'Back End Dev',
     year: 2015,
+    bullet: '•',
     shortDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: 'assets/images/img2.svg',
@@ -32,6 +34,7 @@ const projects = [
     subtitle: 'FACEBOOK',
     backEnd: 'Full Stack Dev',
     year: 2015,
+    bullet: '•',
     shortDescription: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: ' assets/images/img3.svg',
@@ -46,6 +49,7 @@ const projects = [
     subtitle: 'UBER',
     backEnd: 'Leader Developer',
     year: 2018,
+    bullet: '•',
     shortDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: 'assets/images/img4.svg',
@@ -62,7 +66,9 @@ const projectCards = projects.map((project) => `
               <div id="txt_img" class="img-txt1"><h2>${project.name}</h2>
                 <ul class="flex-cards">
                   <li class="all-list first">${project.subtitle}</li>
+                  <li class="all-list second">${project.bullet}</li>
                   <li class="all-list second">${project.backEnd}</li>
+                  <li class="all-list second">${project.bullet}</li>
                   <li class="all-list second">${project.year}</li>
                 </ul>
                 <p class="p3">${project.shortDescription}</p>
@@ -87,7 +93,7 @@ projectCards.forEach((projectCard, index) => {
       <div class="project-header">
         <input type="button" value="&#10006" class="fa-solid fa-xmark project-close close">
         <h2>${projects[index].name}</h2>
-        <p class="all-list first">${projects[index].subtitle} <span class="all-list second">${projects[index].backEnd}</span> <span class="all-list second">${projects[index].year}</span></p>
+        <p class="all-list first">${projects[index].subtitle} <span class="all-list second bullet">${projects[index].bullet}</span><span class="all-list second">${projects[index].backEnd}</span><span class="all-list second bullet">${projects[index].bullet}</span> <span class="all-list second">${projects[index].year}</span></p>
 
         <div class="card_img card1">
           <img class="imagedesktop project-img"  src="${projects[index].image}" alt="card image">            

@@ -726,7 +726,7 @@ span {
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin: 20px 10px;
+    margin: 20px 0;
     height: 667px;
     width: 375px;
     border-radius: 8px;
@@ -771,7 +771,7 @@ span {
 
   .btns {
     align-content: center;
-    margin: 15px 0 0 80px;
+    margin: 10px 0 0 0;
   }
 
   .img-txt1 {
