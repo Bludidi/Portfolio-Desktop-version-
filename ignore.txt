@@ -1,5 +1,0 @@
-
-
-<ul class = ("tech_lang")>
-${projects[index].languages.map((tech) => `<li>${tech}</li>`).join('')}
-</ul>

@@ -781,6 +781,7 @@ span {
   .img-txt1 {
     margin: 10px;
     width: 300px;
+    font-size: 0.7em;
   }
 
   .img-txt2 {
@@ -789,6 +790,7 @@ span {
 
   .p3 {
     margin-left: 10px;
+    font-size: 0.9em;
   }
 
   .last_div {

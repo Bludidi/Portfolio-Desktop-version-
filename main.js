@@ -21,7 +21,7 @@ const projects = [
     shortDescription: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: "assets/images/img2.svg",
-    languages: ["HTML", "CSS", "JavaScript"],
+    languages: ["HTML", "Ruby on rails", "CSS", "JavaScript"],
     technologies: ["HTML", "Ruby on rails", "CSS", "JavaScript"],
     seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
     seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
@@ -32,11 +32,11 @@ const projects = [
     subtitle: 'FACEBOOK',
     backEnd: 'Full Stack Dev',
     year: 2015,
-    shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    shortDescription: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: "assets/images/img3.svg",
     languages: ["HTML", "Ruby on rails", "CSS", "JavaScript"],
-    technologies: ["HTML", "CSS", "JavaScript", "GitHub"],
+    technologies: ["HTML", "CSS", "Ruby on raisl", "JavaScript", "GitHub"],
     seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
     seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
   },
@@ -46,11 +46,11 @@ const projects = [
     subtitle: 'UBER',
     backEnd: 'Leader Developer',
     year: 2018,
-    shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    shortDescription: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: "assets/images/img4.svg",
     languages: ["HTML", "CSS", "JavaScript"],
-    technologies: ["HTML", "CSS", "JavaScript", "GitHub"],
+    technologies: ["HTML", "CSS", "Ruby on raisl", "JavaScript", "GitHub"],
     seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
     seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
   },
@@ -98,9 +98,7 @@ projectCards.forEach((projectCard, index) => {
           <ul class = ("tech_lang")>
             ${projects[index].technologies.map((tech) => `<li>${tech}</li>`).join('')}
           </ul>
-          <ul class = ("tech_lang")>
-            ${projects[index].languages.map((tech) => `<li>${tech}</li>`).join('')}
-          </ul>
+
           <div class="project-links">
             <a href="${projects[index].seeLive}">See Live <i class="close"></i></a>
             <a href="${projects[index].seeSource}">See Source <i class="close"></i></a>
