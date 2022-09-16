@@ -21,7 +21,7 @@ body {
   mix-blend-mode: multiply;
   backdrop-filter: blur(0.5rem);
   position: fixed;
-  width: 100vw;
+  width: 85vw;
   height: 100vh;
   z-index: 99;
   top: 0;
