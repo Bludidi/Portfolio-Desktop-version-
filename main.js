@@ -11,7 +11,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub'],
     seeLive: 'https://bludidi.github.io/Portfolio-Desktop-version-/',
     seeSource: 'https://github.com/Bludidi/Portfolio-Desktop-version-',
-  },  
+  },
 
   {
     name: 'Multi-Post Stories',
@@ -34,7 +34,7 @@ const projects = [
     year: 2015,
     shortDescription: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    image:' assets/images/img3.svg',
+    image: ' assets/images/img3.svg',
     languages: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript'],
     technologies: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript', 'GitHub'],
     seeLive: 'https://bludidi.github.io/Portfolio-Desktop-version-/',
@@ -73,7 +73,7 @@ const projectCards = projects.map((project) => `
                 <input class="btns see_btn" type="button" value="See Project">
             </div>
         </div>
-`,);
+`);
 
 const modalContainer = document.querySelector('.modal');
 const recentWork = document.querySelector('.myWork');

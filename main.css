@@ -650,7 +650,6 @@ span {
   html {
     display: flex;
     flex-direction: column;
-    height: fit-content;
     width: 375px;
     overflow-x: hidden;
   }
