@@ -4,27 +4,27 @@ const projects = [
     subtitle: 'CANOPY',
     backEnd: 'Back End Dev',
     year: 2015,
-    shortDescription: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: './assets/images/img_card1.svg',
-    languages: ["HTML", "CSS", "JavaScript"],
-    technologies: ["HTML", "CSS", "JavaScript", "GitHub"],
-    seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
-    seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
-  },
+    languages: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub'],
+    seeLive: 'https://bludidi.github.io/Portfolio-Desktop-version-/',
+    seeSource: 'https://github.com/Bludidi/Portfolio-Desktop-version-',
+  },  
 
   {
     name: 'Multi-Post Stories',
     subtitle: 'FACEBOOK',
     backEnd: 'Back End Dev',
     year: 2015,
-    shortDescription: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+    shortDescription: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    image: "assets/images/img2.svg",
-    languages: ["HTML", "Ruby on rails", "CSS", "JavaScript"],
-    technologies: ["HTML", "Ruby on rails", "CSS", "JavaScript"],
-    seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
-    seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
+    image: 'assets/images/img2.svg',
+    languages: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript'],
+    technologies: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript'],
+    seeLive: 'https://bludidi.github.io/Portfolio-Desktop-version-/',
+    seeSource: 'https://github.com/Bludidi/Portfolio-Desktop-version-',
   },
 
   {
@@ -34,11 +34,11 @@ const projects = [
     year: 2015,
     shortDescription: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    image: "assets/images/img3.svg",
-    languages: ["HTML", "Ruby on rails", "CSS", "JavaScript"],
-    technologies: ["HTML", "CSS", "Ruby on raisl", "JavaScript", "GitHub"],
-    seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
-    seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
+    image:' assets/images/img3.svg',
+    languages: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript'],
+    technologies: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript', 'GitHub'],
+    seeLive: 'https://bludidi.github.io/Portfolio-Desktop-version-/',
+    seeSource: 'https://github.com/Bludidi/Portfolio-Desktop-version-',
   },
 
   {
@@ -46,13 +46,13 @@ const projects = [
     subtitle: 'UBER',
     backEnd: 'Leader Developer',
     year: 2018,
-    shortDescription: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    shortDescription: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    image: "assets/images/img4.svg",
-    languages: ["HTML", "CSS", "JavaScript"],
-    technologies: ["HTML", "CSS", "Ruby on raisl", "JavaScript", "GitHub"],
-    seeLive: "https://bludidi.github.io/Portfolio-Desktop-version-/",
-    seeSource: "https://github.com/Bludidi/Portfolio-Desktop-version-"
+    image: 'assets/images/img4.svg',
+    languages: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['HTML', 'CSS', 'Ruby on rails', 'JavaScript', 'GitHub'],
+    seeLive: 'https://bludidi.github.io/Portfolio-Desktop-version-/',
+    seeSource: 'https://github.com/Bludidi/Portfolio-Desktop-version-',
   },
 ];
 
@@ -73,8 +73,7 @@ const projectCards = projects.map((project) => `
                 <input class="btns see_btn" type="button" value="See Project">
             </div>
         </div>
-`
-);
+`,);
 
 const modalContainer = document.querySelector('.modal');
 const recentWork = document.querySelector('.myWork');
@@ -109,7 +108,6 @@ projectCards.forEach((projectCard, index) => {
 </div>
 `;
 
-
   const popModal = parser.parseFromString(popupModal, 'text/html').body.firstChild;
   const seeProject = projectIndex.querySelector('.see_btn');
   const closeBtn = popModal.querySelector('.close');
@@ -122,4 +120,3 @@ projectCards.forEach((projectCard, index) => {
   recentWork.append(projectIndex);
   modalContainer.append(popModal);
 });
-

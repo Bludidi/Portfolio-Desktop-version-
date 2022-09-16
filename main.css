@@ -266,7 +266,7 @@ span {
   color: #fff;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
@@ -345,7 +345,6 @@ span {
     position: fixed;
     width: 1440px;
     height: 65px;
-    margin-top: -10;
   }
 
   ul {
@@ -586,7 +585,7 @@ span {
     color: #fff;
     font-family: 'poppins', sans-serif;
     font-style: normal;
-    font-weight: bold 700;
+    font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
@@ -679,7 +678,6 @@ span {
     background-color: white;
     position: fixed;
     width: 375px;
-    margin-top: -8;
   }
 
   .page1 {
@@ -712,7 +710,6 @@ span {
   .soc_img1 {
     display: block;
     margin-left: 0;
-    /* z-index: 9999; */
   }
 
   #media_icon {
@@ -840,7 +837,7 @@ span {
     color: #fff;
     font-family: 'poppins', sans-serif;
     font-style: normal;
-    font-weight: bold 700;
+    font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     text-align: center;

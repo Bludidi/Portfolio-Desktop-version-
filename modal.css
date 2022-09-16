@@ -65,14 +65,14 @@ body {
   font-weight: 700;
 }
 
-.project-header>h2 {
+.project-header > h2 {
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
   margin-bottom: 22px;
 }
 
-.project-header>p {
+.project-header > p {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
@@ -91,12 +91,11 @@ body {
 
 .project-desc {
   margin-bottom: 24px;
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-
 
   color: #344563;
 }
@@ -107,7 +106,7 @@ body {
 }
 
 .project-footer,
-.project-footer>div {
+.project-footer > div {
   display: flex;
   flex-direction: column;
 }
@@ -120,7 +119,7 @@ body {
 }
 
 .first {
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -129,12 +128,12 @@ body {
 }
 
 .second {
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .project-footer ul {
@@ -160,7 +159,7 @@ body {
 }
 
 .first {
-  font-family: 'Poppins';
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -269,7 +268,7 @@ body {
     justify-content: space-between;
   }
 
-  .project-footer>div {
+  .project-footer > div {
     width: 30vw;
   }
 
