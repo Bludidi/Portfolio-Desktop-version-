@@ -127,19 +127,20 @@
                     I’d love to help with it
                 </p>
             </div>
-            <form action="https://formspree.io/f/form" method="post" id="form" class="contact-form">
+            <form action="https://formspree.io/f/xayknkzb" method="POST" id="form" class="contact-form" SameSite="None" >
                 <ul class="form-item">
                     <li class="username"><input class="contact_input one_line" type="text" placeholder="username"
                             name="username" maxlength="30" required></li>
-                    <li class="email"><input class="contact_input one_line" type="email" placeholder="Enter email"
-                            name="email" required></li>
+                    <li class="email"><input class="contact_input one_line" id="mail" type="email"
+                            placeholder="Enter email" name="email" required></li>
                     <li class="username"><textarea class="message contact_input" placeholder="Write your message here"
                             maxlength="500" required></textarea></li>
                 </ul>
-                <input class="get_intouch btn1 form-button btns" type="submit" value="Get It Touch">
+                <input class="get_intouch btn1 form-button btns" type="submit" value="Get It Touch" onclick="validateEmail('mail')">
             </form>
         </div>
     </footer>
+    <script src="validate.js"></script>
 </body>
 
 </html>
