@@ -99,8 +99,8 @@ projectCards.forEach((projectCard, index) => {
           </ul>
 
           <div class="project-links">
-            <a href="${projects[index].seeLive}">See Live <i class="close"></i></a>
-            <a href="${projects[index].seeSource}">See Source <i class="close"></i></a>
+            <a href="${projects[index].seeLive}">See Live <img src="./assets/images/seeLive.svg" alt="see live icon"> <i class="close"></i></a>
+            <a href="${projects[index].seeSource}">See Source <img src="./assets/images/gitIcon.svg" alt="github icon"> <i class="close"></i></a>
           </div>
         </div>
       </div>
