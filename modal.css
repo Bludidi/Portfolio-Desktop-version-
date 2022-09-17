@@ -12,7 +12,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
 .project-popup-hidden {
   display: none;
 }
@@ -45,7 +44,6 @@ body {
   left: 1em;
   width: 365px;
   height: 90vh;
-
 }
 
 .button {
