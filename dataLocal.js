@@ -5,6 +5,20 @@ const form = document.querySelector('form');
 const body = document.querySelector('body');
 
 const retrieveData = localStorage.getItem('user');
+const userStore = {
+  name: nameData,
+  email: emailData,
+  message: messageData,
+};
+
+localStorage.setItem('user', JSON.stringify(userStore));
+});
+});
+
+form.addEventListener('submit', (e) => {
+e.preventDefault();
+});
+
 
 body.onload = () => {
   if (retrieveData) {
@@ -22,3 +36,5 @@ document.querySelectorAll('input').forEach((input) => {
     const nameData = document.getElementById('name').value;
     const emailData = document.getElementById('mail').value;
     const messageData = document.getElementById('text').value;
+  });
+});
