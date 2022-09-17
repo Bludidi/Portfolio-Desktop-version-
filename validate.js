@@ -1,12 +1,11 @@
 const alert = document.querySelector('.alert');
-const footer = document.querySelector('.footer');
 const submit = document.querySelector('.submit');
 const reg = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
 
-submit.addEventListener('click', show);
 function show() {
   alert.style.display = 'block';
 }
+submit.addEventListener('click', show);
 
 const validateEmail = (email) => {
   if (email.match(reg)) {
