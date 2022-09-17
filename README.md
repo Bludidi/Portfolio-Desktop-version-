@@ -6,6 +6,7 @@ It must use media quiries to adapt to different screen sizes.
 ## Built With
 - HTML 
 - CSS
+- Javascript
 
 ## Description 
 - It should look almost like the Figma template I chose.
@@ -18,14 +19,8 @@ It must use media quiries to adapt to different screen sizes.
 - Username accepts a maximum of 30 characters.
 - The textarea/message box accepts a maximum of 500 characters.
 - Form is having an interactive button.
-
-### (Update)Created  a new branch to:
-
-- Update the README file.
-- Added link to the published webpage.
-- Make sure that there are no linter errors.
-- Make sure to use the correct GitHub Flow.
-- Make sure that I documented my work in a professional way.
+- Must build project section dynamically.
+- Pop-up window must created dynamically.
 
 # Link 
 https://bludidi.github.io/Portfolio-Desktop-version-/ 
@@ -38,6 +33,9 @@ https://bludidi.github.io/Portfolio-Desktop-version-/
 👤 Brian Buntu Ludidi
 
 GitHub: @Bludidi 
+
+👤 Nurgul Kereikhan
+
 
 
 🤝 Contributing
