@@ -60,6 +60,14 @@ span a {
   margin: 25px 0 0 280px;
 }
 
+.alert {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 span {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -266,7 +274,7 @@ span {
   color: #fff;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: bold 700;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
@@ -346,7 +354,6 @@ span {
     z-index: 9999;
     width: 1440px;
     height: 65px;
-    margin-top: -10;
   }
 
   ul {
@@ -587,7 +594,7 @@ span {
     color: #fff;
     font-family: 'poppins', sans-serif;
     font-style: normal;
-    font-weight: bold 700;
+    font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
@@ -652,7 +659,6 @@ span {
   html {
     display: flex;
     flex-direction: column;
-    height: fit-content;
     width: 375px;
     overflow-x: hidden;
   }
@@ -681,7 +687,6 @@ span {
     position: fixed;
     z-index: 9999;
     width: 375px;
-    margin-top: -8;
   }
 
   .page1 {
@@ -839,7 +844,7 @@ span {
     color: #fff;
     font-family: 'poppins', sans-serif;
     font-style: normal;
-    font-weight: bold 700;
+    font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
