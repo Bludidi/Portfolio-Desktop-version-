@@ -1,4 +1,3 @@
-
 const alert = document.querySelector('.alert');
 const footer = document.querySelector('.footer')
 const submit = document.querySelector('.submit');
@@ -15,7 +14,6 @@ const validateEmail = (email) => {
   }
   return false;
 };
-
 
 submit.addEventListener('click', (event) => {
   const validEmail = document.getElementById('mail').value;
